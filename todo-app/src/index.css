@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todoapp {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.filter-btn {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.todoitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.todoitem input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.todoitem .completed {
+  text-decoration: line-through;
+}
+
+.delete-all-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-all-btn:hover {
+  background-color: darkred;
+}
